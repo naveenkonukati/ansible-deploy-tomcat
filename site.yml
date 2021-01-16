@@ -1,0 +1,9 @@
+---
+ - name: 
+   hosts: appserver
+   become: true
+
+   roles:
+     - jdk
+     - tomcat
+     - deploywar
