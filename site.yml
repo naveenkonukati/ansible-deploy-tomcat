@@ -1,6 +1,6 @@
 ---
  - name: 
-   hosts: appserver
+   hosts: webserver
    become: true
    vars_files:
    - group_vars/main.yml
