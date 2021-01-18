@@ -2,8 +2,11 @@
  - name: 
    hosts: appserver
    become: true
+   vars_files:
+   - group_vars/main.yml
 
    roles:
      - jdk
      - tomcat
      - deploywar
+   
