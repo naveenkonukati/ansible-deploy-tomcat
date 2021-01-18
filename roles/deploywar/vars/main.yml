@@ -1,5 +1,5 @@
 ---
-  NEXUS_IP: 18.219.38.244
+  NEXUS_IP: 3.134.79.254
   NEXUS_USER: admin
   nexus_port: 8081
   BUILD_NO: BUILD_NUMBER 
